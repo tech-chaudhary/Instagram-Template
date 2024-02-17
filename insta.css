@@ -9,7 +9,6 @@ body{
 .main-container{
     height: 60vh;
     width: 25%;
-    /* background-color: aqua; */
     background-color: white;
     margin: 10vh auto;
     display: flex;
