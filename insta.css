@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: teal;
+}
+.main-container{
+    height: 60vh;
+    width: 25%;
+    /* background-color: aqua; */
+    background-color: white;
+    margin: 10vh auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    position: relative;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.sub-box{
+    height: 50vh;
+     width: 80%;
+ }
+.logo img{
+    margin-left: 36px;
+}
+
+.form-group input{
+    height: 25px;
+    width: 100%;
+    padding: 20px;
+}
+.form-group{
+    margin-top: 15px;
+}
+.sub-box button{
+    height: 40px;
+     width: 100%;
+  background-color: rgb(17, 103, 201);
+  color: white;
+  margin-top: 20px;
+  border: none;
+  }
+ 
+  .line{
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .facebook{
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: medium;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .line {
+    display: flex;
+    margin-top: 4vh;
+}
+  .forgot{
+    text-align: center;
+    margin-top: 15px;
+  }
+  .footer-container{
+    height: 10vh;
+    width: 100%;
+    top: 458px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+  
+     }
+     .sub-ftr{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+     }
+     .sub-ftr h3{
+        margin-top: 23px;
+        
+     }
+     .sub-ftr a h3{
+        margin-top: 23px;
+        gap: 10px;
+        color: blue;
+     }
